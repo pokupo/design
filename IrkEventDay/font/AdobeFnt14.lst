@@ -1,0 +1,108 @@
+%!Adobe-FontList 1.14
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Black
+FamilyName:Proxima Nova
+StyleName:Black
+FullName:Proxima Nova Black
+MenuName:Proxima Nova Bl
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:B:\YandexDisk\Проекты\Для Pokupo\Github\design\IrkEventDay\Font\Proxima Nova Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:93168
+FileModTime:1453195362
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Bold
+FamilyName:Proxima Nova
+StyleName:Bold
+FullName:Proxima Nova Bold
+MenuName:Proxima Nova Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:B:\YandexDisk\Проекты\Для Pokupo\Github\design\IrkEventDay\Font\Proxima Nova Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96640
+FileModTime:1453195377
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Extrabld
+FamilyName:Proxima Nova
+StyleName:Extrabold
+FullName:Proxima Nova Extrabold
+MenuName:Proxima Nova Th
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:B:\YandexDisk\Проекты\Для Pokupo\Github\design\IrkEventDay\Font\Proxima Nova Extrabold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:95996
+FileModTime:1453195374
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Light
+FamilyName:Proxima Nova
+StyleName:Light
+FullName:Proxima Nova Light
+MenuName:Proxima Nova Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:B:\YandexDisk\Проекты\Для Pokupo\Github\design\IrkEventDay\Font\Proxima Nova Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:94316
+FileModTime:1453195366
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Regular
+FamilyName:Proxima Nova
+StyleName:Regular
+FullName:Proxima Nova Regular
+MenuName:Proxima Nova Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:B:\YandexDisk\Проекты\Для Pokupo\Github\design\IrkEventDay\Font\Proxima Nova Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:94668
+FileModTime:1453195367
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
