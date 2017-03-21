@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> </title>
+    <!-- Начало кода активации магазина -->
+    <meta name="Pokupo.activationKey" content="1e768a21723e530122240fa219bff8c3365f40b2" />
+    <meta name="Pokupo.version" content="1.3.0" />
+    <!-- Конец кода активации магазина -->
+</head>
+<body>
+    <!-- Начало кода виджета магазина -->
+    <script type="text/javascript">
+        WParameters={
+            core:{
+                                shopId: 1392, //Id магазина, который владеет товаром
+                colorTheme: 'default', //тема оформления (black_yellow,blue,brown_green,default,pink_blue,red_black,red_green)
+                },
+            content:{
+                block:{
+                    container:{
+                        empty:{widget:'tileBlockId'}
+                    }
+                }
+            },
+            cart:{
+                show:{title:"always",count:true,baseCost:true,finalCost:true,fullInfo:true}
+            },
+            favorites:{
+                show:["infoShop","addToCart","buy"]
+            },
+            goods:{
+                show:["selectionCount","addToCart","buy","gallery","shipping","opinion","favorites","blockShop","blockInfoSeller"]
+            },
+            infoSeller:{
+                show:["blockShop","blockInfoSeller"]
+            },
+            userInformation:{
+                show:["icon","raiting"]
+            },
+            standalonePayment:{
+                showButton:false
+            }
+        };
+        (function (e) {
+            var o = e.getElementsByTagName("head")[0] || e.documentElement,
+                    a = e.createElement("script");a.async = true;a.src = "//server.pokupo.ru/prod/server/js/widgets/JSCore-1.3.min.js?v=" + Math.random().toString(36).substr(2, 10);o.appendChild(a);
+            a.onload = function(){
+                PokupoWidgets.Init(["all"], WParameters)
+            }
+        })(document);
+    </script>
+    <div class="main_pkp">
+        <section class="subheader subheader--min">
+            <div class="container_pkp">
+                <div id="shopInfoWidgetId"></div>
+                <div class="menu-login">
+                    <div id="userInformationWidgetId" style="float: left"></div>
+                    <div id="cartInfoWidgetId" style="float: left"></div>
+                </div>
+            </div>
+        </section>
+        <div id="authenticationWidgetId"></div>
+        <!-- search -->
+        <div id="searchWidgetId"></div>
+        <div id="advancedSearchFormWidgetId"></div>
+        <!-- /search -->
+        <!-- content -->
+        <section class="store nosidebar">
+            <div id="menuPersonalCabinetWidgetId"></div>
+            <div class="container_pkp">
+                <div id="catalogWidgetId"></div>
+                <div class="b-thermometer" id="breadCrumbsWidgetId_1"></div>
+                <div id="sliderBlockId"></div>
+                <div id="tileBlockId"></div>
+                <div id="carouselBlockId"></div>
+                <div id="content_pkp"></div>
+            </div>
+        </section>
+        <!-- /content -->
+    </div>
+    <!-- Конец кода виджета магазина -->
+</body>
+</html>
